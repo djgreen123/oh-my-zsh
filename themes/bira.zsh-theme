@@ -21,6 +21,6 @@ fi
 local git_branch='$(git_prompt_info)%{$reset_color%}'
 local venv_prompt='$(virtualenv_prompt_info)%{$reset_color%}'
 
-PROMPT="╭─%{$fg_bold[cyan]%}%T%{$fg_bold[green]%} ${venv_prompt} ${user_host} ${current_dir} ${rvm_ruby} 
+PROMPT="╭─%{$fg_bold[cyan]%}%T%{$fg_bold[green]%} ${venv_prompt} ${current_dir} ${rvm_ruby} 
 ╰─%B${user_symbol}%b "
 
